@@ -55,9 +55,9 @@
                                         <i class="orange-color bi bi-bell-fill"></i>
                                     </button>
                                     <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                    <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                    <li><a class="dropdown-item" href="#">Logout</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -75,6 +75,9 @@
             <div class="container-fluid"> 
                 
                 <div class="row">
+
+                    <!-- Sezione Aside -->
+
                     <aside class="col-auto vh border-debug back-img">
                         <nav class="height-100 d-flex flex-column justify-content-between px-4">
                             <ul class="list-unstyled mt-3">
@@ -88,7 +91,58 @@
                         </nav>
                     </aside>
                     
-                    <div class="col border-debug"></div>
+                    <!-- Sezione Main Info -->
+
+                    <div class="col vh overflow-auto border-debug">
+                        
+                        <!-- Sezione Header Main -->
+                        
+                        <div class="row bg-blue py-3">
+                            
+                            <!-- Prima colonna -->
+                            <div class="col border-debug">
+                                <div>
+                                    <h2 class="fs-1 white-color d-inline-block">Boolean</h2>
+                                    <span class="d-inline-block fs-em badge rounded-pill bg-dark-blue">Piano Blaze</span>
+                                </div>
+                                <span class="d-inline-block fs-em badge rounded-pill bg-dark-blue">3 app</span>
+                                <span class="d-inline-block fs-em white-color"><i class="fa-solid fa-angles-right"></i></span>
+                                <span class="d-inline-block fs-em badge rounded-pill bg-dark-blue">Boolean mobile app</span>
+                                <span class="d-inline-block fs-em badge rounded-pill bg-dark-blue">Boolean web app</span>
+                                <span class="d-inline-block fs-em badge rounded-pill bg-dark-blue">Boolean blog app</span>
+                            </div>
+                            
+                            <!-- Seconda colonna -->
+                            <div class="col-3 border-debug">
+                                <h4 class="white-color fs-em">Studenti online negli ultimi 30 minuti</h4>
+                                <h2 class="white-color mb-0">125</h2>
+                            </div>
+                            
+                            <!-- Terza colonna -->
+                            <div class="col-3 border-debug d-flex align-items-baseline">
+                                <h4 class="white-color fs-em">Nuovo studente</h4>
+                                
+                                <!-- Offcanva -->
+                                <button class="btn ms-3 my-border-white white-color" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                    
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    
+                                    <div class="offcanvas-body">
+                                        ...
+                                    </div>
+                                
+                                </div>
+                                
+                            
+                            </div>
+                        </div>
+                    
+                    </div>
                 </div>
             
             </div>

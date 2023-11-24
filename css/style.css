@@ -18,6 +18,8 @@
     --light-gray: #E5E5E5;
     --orange-color: #FF8F00;
     --aside-color: #051E34;
+    --blue-color: #1A72E8;
+    --dark-blue: #165BBA;
 }
 
 .bg-white{
@@ -26,6 +28,14 @@
 
 .bg-gray{
     background-color: var(--light-gray);
+}
+
+.bg-blue{
+    background-color: var(--blue-color);
+}
+
+.bg-dark-blue{
+    background-color: var(--dark-blue);
 }
 
 .white-color{
@@ -69,6 +79,19 @@
 
 .height-100{
     height: 100%;
+}
+
+.fs-em{
+    font-size: 0.8em;
+}
+
+.my-border-white{
+    border: 1px solid white;
+}
+
+.my-border-white:hover{
+    border: 1px solid white;
+    color: var(--white-color);
 }
 
 /* 
