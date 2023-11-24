@@ -22,45 +22,50 @@
 
         <!-- header -->
         <header class="header-box border-debug">
-            
-            <div class="row g-0 py-3 align-items-center">
-                
-                <!-- logo -->
-                <div class="col-auto">
-                    <img src="img/logo.svg" alt="Logo">
-                </div>
-                
-                <!-- searchbar -->
 
-                <div class="col mx-3 d-flex align-items-center">
-                    <div class="input-group bg-gray">
-                        <span class="input-group-text border-end-0 bg-gray" id="basic-addon1"> <i class="bi bi-search"></i> </span>
-                        <input type="search" class="form-control bg-gray border-start-0 box-shadow-none" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+            <div class="container-fluid">
+            
+                <div class="row g-0 py-3 align-items-center">
+                    
+                    <!-- logo -->
+                    <div class="col-auto">
+                        <img class="d-lg-block d-md-none d-sm-none" src="img/logo.svg" alt="Logo">
+                        <img class="d-lg-none d-md-block d-sm-block m-w-50" src="img/mobile-logo.png" alt="Logo Small">
                     </div>
-                </div>
-                
-                <!-- list -->
+                    
+                    <!-- searchbar -->
 
-                <div class="col-auto">
-                    <ul class="list-unstyled mb-0 me-3">
-                        <li class="d-inline-block"><a class="gray-color" href="#nogo"> <i class="bi bi-list-ul"></i> </a></li>
-                        <li class="d-inline-block ps-2"><a class="gray-color" href="#nogo"> <i class="bi bi-question-circle-fill"></i> </a></li>
-                        <li class="d-inline-block ps-2"><a class="gray-color" href="#nogo"> <i class="bi bi-three-dots-vertical"></i> </a></li>
-                        <li class="d-inline-block ps-2">
-                            <div class="dropdown">
-                                <button class="btn dropdown p-0 border-none" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <i class="orange-color bi bi-bell-fill"></i>
-                                </button>
-                                <ul class="dropdown-menu">
-                                  <li><a class="dropdown-item" href="#">Action</a></li>
-                                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                    </ul>
+                    <div class="col mx-3 d-flex align-items-center">
+                        <div class="input-group bg-gray">
+                            <span class="input-group-text border-end-0 bg-gray" id="basic-addon1"> <i class="bi bi-search"></i> </span>
+                            <input type="search" class="form-control bg-gray border-start-0 box-shadow-none" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    
+                    <!-- list -->
+
+                    <div class="col-auto">
+                        <ul class="list-unstyled mb-0">
+                            <li class="d-lg-inline-block d-md-none d-sm-none"><a class="gray-color" href="#nogo"> <i class="bi bi-list-ul"></i> </a></li>
+                            <li class="d-lg-inline-block ps-2 d-md-none d-sm-none"><a class="gray-color" href="#nogo"> <i class="bi bi-question-circle-fill"></i> </a></li>
+                            <li class="d-lg-inline-block ps-2 d-md-none d-sm-none"><a class="gray-color" href="#nogo"> <i class="bi bi-three-dots-vertical"></i> </a></li>
+                            <li class="d-inline-block ps-2">
+                                <div class="dropdown">
+                                    <button class="btn dropdown p-0 border-none" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="orange-color bi bi-bell-fill"></i>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                
                 </div>
-            
+
             </div>
         </header>
 
