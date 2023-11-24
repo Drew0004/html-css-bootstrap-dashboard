@@ -72,6 +72,10 @@
     height: calc(100vh - 72px);
 }
 
+.gray-overlay:hover{
+    background-color: var(--gray-color);
+}
+
 .back-img{
     background-image: url(../img/sidebar-bg.png);
     background-color: var(--aside-color);
