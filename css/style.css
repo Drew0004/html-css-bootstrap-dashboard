@@ -12,6 +12,43 @@
     general 
 */
 
+:root{
+    --gray-color: #898989;
+    --white-color: #ffffff;
+    --light-gray: #E5E5E5;
+    --orange-color: #FF8F00;
+}
+
+.bg-white{
+    background-color: var(--white-color);
+}
+
+.bg-gray{
+    background-color: var(--light-gray);
+}
+
+.gray-color{
+    color: var(--gray-color);
+}
+
+.orange-color{
+    color: var(--orange-color);
+}
+
+.box-shadow-none:focus{
+    box-shadow: none;
+    border-color: rgb(222, 226, 230);
+    background-color: var(--light-gray);
+}
+
+.border-debug{
+    border: 1px dashed lightcoral;
+}
+
+.border-none{
+    border: none;
+}
+
 /* 
     header 
 */
