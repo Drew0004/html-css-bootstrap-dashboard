@@ -20,6 +20,7 @@
     --aside-color: #051E34;
     --blue-color: #1A72E8;
     --dark-blue: #165BBA;
+    --dark-white: #F7F7F7;
 }
 
 .bg-white{
@@ -32,6 +33,10 @@
 
 .bg-blue{
     background-color: var(--blue-color);
+}
+
+.bg-light-gray{
+    background-color: var(--dark-white);
 }
 
 .bg-dark-blue{
@@ -89,6 +94,10 @@
     font-size: 0.8em;
 }
 
+.my-fs-small{
+    font-size: 0.5em;
+}
+
 .my-border-white{
     border: 1px solid white;
 }
@@ -117,6 +126,14 @@
 /* 
     main 
 */
+
+.square-box{
+    width: 10px;
+    height: 10px;
+    border: 1px solid var(--gray-color);
+    padding: 5px 7px;
+    border-radius: 5px;
+}
 
 /* 
     footer 
